@@ -1,0 +1,28 @@
+.wrapper {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.wrapper .box {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.wrapper .box .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1px;
+  text-align: left;
+}
+
+.wrapper .box .right * {
+  margin: 0;
+}
